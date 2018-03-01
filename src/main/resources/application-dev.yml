@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://rm-wz9u1au10e9g862dgo.mysql.rds.aliyuncs.com:3306/one?characterEncoding=utf8
+    username: root
+    password: Startup2017
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+  jooq:
+    sql-dialect: mysql

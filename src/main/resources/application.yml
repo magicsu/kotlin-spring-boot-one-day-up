@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+#  datasource:
+#    url: ${MYSQL_URL}
+#    username: ${MYSQL_USERNAME}
+#    password: ${MYSQL_PASSWORD}
+
+server:
+  port: 9090
+
